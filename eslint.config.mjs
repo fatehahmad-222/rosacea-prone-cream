@@ -10,6 +10,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Nested standalone projects:
+    "app/components/Rosceaprone-serum/.next/**",
+    "app/components/Rosceaprone-serum/node_modules/**",
+    "app/components/Rosceaprone-cleanser/.next/**",
+    "app/components/Rosceaprone-cleanser/node_modules/**",
   ]),
 ]);
 
