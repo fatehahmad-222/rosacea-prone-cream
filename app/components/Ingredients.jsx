@@ -10,49 +10,49 @@ const INGREDIENTS = [
     benefit: "Supports skin renewal",
     image: "/images/Mask group.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Ceramide NP",
     benefit: "Helps strengthen the skin barrier",
     image: "/images/Mask group-1.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Ectoin",
     benefit: "Helps protect against moisture loss",
     image: "/images/Mask group-2.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Squalane",
     benefit: "Provides long-lasting nourishment",
     image: "/images/Mask group-3.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Panthenol",
     benefit: "Provides lightweight, long-lasting hydration",
     image: "/images/Mask group-4.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Bisabolol",
     benefit: "Helps soothe visible redness and irritation",
     image: "/images/Mask group-5.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Meadowfoam & Jojoba Oils",
     benefit: "Help replenish moisture, leaving skin soft and supple",
     image: "/images/Mask group-6.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
 ];
 
@@ -92,7 +92,7 @@ function IngredientRow({ name, benefit, image, width, height, index }) {
           </div>
 
           <div className="mx-auto">
-            <div className="aspect-[378/585] w-full max-w-[clamp(90px,19vw,190px)] overflow-hidden rounded-2xl shadow-md shadow-ink/10 transition-transform duration-300 ease-out group-hover:scale-[1.02]">
+            <div className="aspect-square w-full max-w-[clamp(90px,19vw,190px)] overflow-hidden rounded-2xl shadow-md shadow-ink/10 transition-transform duration-300 ease-out group-hover:scale-[1.02]">
               <Image
                 src={image}
                 alt={name}
