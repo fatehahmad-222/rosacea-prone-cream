@@ -45,7 +45,7 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
-              href="#"
+              href="https://www.amazon.com/dp/B0GKJ1LF5X/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B0GKJ1LF5X&pd_rd_w=Zr8K0&content-id=amzn1.sym.ac210bc5-f6e8-418c-8a77-e0c4ca3bcd7f&pf_rd_p=ac210bc5-f6e8-418c-8a77-e0c4ca3bcd7f&pf_rd_r=E278TC0GN62VYZRE0M9M&pd_rd_wg=EtWhL&pd_rd_r=b2753723-5980-4632-96dc-34ffff52cdc3&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw"
               className="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-bold text-primary transition-colors hover:bg-accent-light"
             >
               Shop Now
