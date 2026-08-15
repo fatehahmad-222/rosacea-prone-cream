@@ -11,6 +11,7 @@ import BeforeAfter from "./components/BeforeAfter";
 import VisibleDailyCare from "./components/VisibleDailyCare";
 import HowToUse from "./components/HowToUse";
 import WhyChoose from "./components/WhyChoose";
+import ImageSection from "./components/ImageSection";
 import FAQ from "./components/FAQ";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
@@ -32,6 +33,7 @@ export default function Home() {
         <VisibleDailyCare />
         <HowToUse />
         <WhyChoose />
+        <ImageSection />
         <FAQ />
         <Newsletter />
       </main>
