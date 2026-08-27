@@ -15,6 +15,7 @@ import ImageSection from "./components/ImageSection";
 import FAQ from "./components/FAQ";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import Reviews  from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <StatsBand />
         <Ingredients />
         <BeforeAfter />
+        <Reviews />
         <VisibleDailyCare />
         <HowToUse />
         <WhyChoose />
